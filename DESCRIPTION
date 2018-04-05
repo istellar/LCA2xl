@@ -1,7 +1,6 @@
 Package: LCA2xl
 Type: Package
-Title: An R Package that Imports Mplus LCA Model Output and Exports the
-        Results to Excel
+Title: An R Package that Imports Mplus LCA Model Output and Exports the Results to Excel
 Version: 0.0.1
 Authors@R: person("Stella", "Min", email = "allets@gmail.com", role = c("aut", "cre"))
 Description: Leverages the R language to automate latent class analysis model extraction
@@ -10,11 +9,12 @@ Description: Leverages the R language to automate latent class analysis model ex
 	           the results to Excel. 
 Depends: R (>= 3.4.1)
 URL: https://github.com/istellar/LCA2xl
-Imports: dplyr, tidyr, plyr, stringr, stringi, excel.link
+Imports:
+  dplyr,
+  tidyr,
+  plyr,
+  stringr,
+  stringi,
+  excel.link
 LazyData: true
 RoxygenNote: 6.0.1
-NeedsCompilation: no
-Packaged: 2018-04-05 18:17:06 UTC; allet
-Author: Stella Min [aut, cre]
-Maintainer: Stella Min <allets@gmail.com>
-Built: R 3.4.1; ; 2018-04-05 18:20:19 UTC; windows
